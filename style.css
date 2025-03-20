@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f5f5f5;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  header {
+    margin-bottom: 15px;
+  }
+
+  .main-content {
+    display: flex;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+  }
+  
+  .headline {
+    flex: 1;
+    font-size: 62px;
+    font-weight: 900;
+    line-height: 1.1;
+    text-transform: uppercase;
+  }
+  
+  .article-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .article-text {
+    color: #333;
+    line-height: 1.6;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  
+  .meta-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .meta-left {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .meta-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .meta-label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .label-button {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .magazine-title {
+    display: flex;
+    font-size: 95px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+    justify-content: center;
+  }
+  
+  .magazine-label {
+    font-weight: bold;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .top-nav {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: black;
+    padding: 5px 0;
+    margin-bottom: 15px;
+    font-size: 11px;
+  }
+  
+  .top-nav-links {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .top-nav-item {
+    font-family: sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  .main-content2 {
+    display: flex;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 30px;
+  }
+
+  .meta-left {
+    display: flex;
+    gap: 20px;
+  }
+
+  .meta-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .meta-label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .share-button {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .top-nav-item2 {
+    font-family: sans-serif;
+    opacity: 0.8;
+    color: white;
+    font-weight: 400;
+  }
+  
+  .main-content3 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+  }
+  
+  .main-articles {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    margin-left: 20px;
+    max-width: 100%;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0;
+  }
+
+  
+  .featured-article-img {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .article-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .article-item {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .article-thumbnail {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  
+  .article-content {
+    flex-grow: 1;
+  }
+  
+  .article-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .article-excerpt {
+    font-size: 12px;
+    color: #555;
+    margin-bottom: 10px;
+    line-height: 1.4;
+  }
+  
+  .article-meta {
+    font-size: 10px;
+    color: #777;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .article-read-more {
+    display: inline-block;
+    padding: 2px 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    font-size: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .sidebar {
+    margin-top: 414px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .sidebar-element {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+  }
+  
+  .publication-info {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .publication-date {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .magazine-logo {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-ad {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .sidebar-ad-button {
+    background-color: #fff;
+    color: #000;
+    padding: 5px 10px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  .top-picks {
+    margin-top: 15px;
+  }
+  
+  .top-picks-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .top-picks-list {
+    list-style-type: none;
+  }
+  
+  .top-picks-item {
+    padding: 5px 0;
+    font-size: 12px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .top-picks-number {
+    display: inline-block;
+    width: 20px;
+    font-weight: bold;
+  }
+  
+  .newsletter {
+    text-align: center;
+    padding: 15px;
+    background-color: #f5f5f5;
+    margin-top: 15px;
+  }
+  
+  .newsletter-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter-button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    font-size: 12px;
+    cursor: pointer;
+  }

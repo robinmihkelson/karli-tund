@@ -851,7 +851,7 @@
 .footer2 {
     background: black;
     color: white;
-    padding: 40px 0; /* Remove side padding */
+    padding: 40px 0;
     width: 100%;
     margin-top: 200px;
 }
@@ -906,4 +906,48 @@
 
 .author-image2 {
     width:330px;
+}
+
+.section4 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 475px;
+    gap: 15px;
+}
+
+.section4-picture {
+    gap: 30px;
+    display: flex;
+}
+
+.author-image3 {
+    width: 200px;
+}
+
+.section5 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 510px;
+    gap: 15px;
+}
+
+.section6 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 505px;
+    gap: 15px;
+}
+
+.section7 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 530px;
+    gap: 15px;
+}
+
+.section8 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 520px;
+    gap: 15px;
 }

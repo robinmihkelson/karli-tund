@@ -907,3 +907,14 @@
 .author-image2 {
     width:330px;
 }
+
+.ticker2 {
+    display: flex;
+    background: black;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 10px 0;
+    font-weight: bold;
+    justify-content: center;
+    color: white;
+}
